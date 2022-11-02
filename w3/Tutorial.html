@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Tutorial</title>
+    <link rel="stylesheet" href="./Tutorial.css">
+    <link rel="stylesheet" href="./Tutorial.js">
+</head>
+<body>
+    <div class="div1">
+        <h1>Học JavaScrip cơ bản</h1>
+        <p id="demo">Học js</p>
+        <button 
+            class="button1" 
+            type="button" 
+            name="Hello" 
+            onclick='document.write("hoc js")'
+        >
+            Hello!
+        </button>
+    </div>
+
+    <div class="div2-batden">
+        <p>Hiệu ứng bật tắt đèn</p>
+        <img id="img-lamp" src="https://www.w3schools.com/js/pic_bulboff.gif" style="width:100px">
+        <div class="button2">
+            <button class="turn-on" onclick="document.getElementById('img-lamp').src = 'https://www.w3schools.com/js/pic_bulbon.gif'">Turn On</button>
+            <button class="turn-off" onclick="document.getElementById('img-lamp').src = 'https://cdn.pixabay.com/photo/2013/07/13/13/20/bulb-160854_1280.png'">Turn Off</button>
+        </div>
+    </div>
+
+    <div class="div3">
+       <span class="abc"></span>
+       <script>
+            var a = 10;
+            var b = 5;
+            var c = a + b;
+            document.write(a);
+            document.write('<br>' + b);
+            document.write('<br>' + c);
+       </script>
+    </div>
+</body>
+</html>
